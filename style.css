@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e9efec;
+  color: #16423c;
+  margin: 0;
+}
+.content {
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  background-color: #c4dad2;
+  border: 1px solid black;
+}
+.profile {
+  height: 120px;
+  border-radius: 50%;
+  width: 120px;
+}
+.review-span {
+  text-decoration: underline;
+  text-decoration-color: #6a9c89;
+  text-underline-offset: 8px;
+  /*To move the underline in a text decoration 
+  further down from the default position in CSS, 
+  you can use the text-underline-offset property, 
+  which allows you to adjust the vertical position 
+  of the underline. Here's how you can do it:*/
+}
+.surprise {
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #c4dad2;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.moveButton span {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+/* Responsive desing */
+@media (min-width: 769px) {
+  .content {
+    width: 600px;
+  }
+}
